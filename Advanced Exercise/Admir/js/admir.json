@@ -1,0 +1,21 @@
+  var booklist = `[{
+		"title": "Javascript for Dummies1",
+		"author": "Dummy Dumb Dumb1",
+		"read": "false"
+	}, 
+	{	
+		"title": "Javascript for Dummies2",
+		"author": "Dummy Dumb Dumb2",
+		"read": "false"
+	},
+	{	
+		"title": "Javascript for Dummies3",
+		"author": "Dummy Dumb Dumb3",
+		"read": "false"
+	},
+	{	
+		"title": "Javascript for Dummies4",
+		"author": "Dummy Dumb Dumb4",
+		"read": "false"
+  }
+]`
