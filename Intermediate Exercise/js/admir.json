@@ -1,0 +1,82 @@
+var employees = `[
+	{
+		"id": "1",
+		"first_name": "Admir1",
+		"last_name": "Saraseli1",
+		"email": "asaraseli1@gmail.com",
+		"job_title": "Future Developer",
+		"salary": "31K"
+	}, 
+	{
+		"id": "2",
+		"first_name": "Admir2",
+		"last_name": "Saraseli2",
+		"email": "asaraseli2@gmail.com",
+		"job_title": "Future Developer",
+		"salary": "32K"
+	},
+	{
+		"id": "3",
+		"first_name": "Admir3",
+		"last_name": "Saraseli3",
+		"email": "asaraseli3@gmail.com",
+		"job_title": "Future Developer",
+		"salary": "33K"
+	}, 
+	{
+		"id": "4",
+		"first_name": "Admir4",
+		"last_name": "Saraseli4",
+		"email": "asaraseli4@gmail.com",
+		"job_title": "Future Developer",
+		"salary": "34K"
+	}, 
+	{
+		"id": "5",
+		"first_name": "Admir5",
+		"last_name": "Saraseli5",
+		"email": "asaraseli5@gmail.com",
+		"job_title": "Future Developer",
+		"salary": "35K"
+	}, 
+	{
+		"id": "6",
+		"first_name": "Admir6",
+		"last_name": "Saraseli6",
+		"email": "asaraseli6@gmail.com",
+		"job_title": "Future Developer",
+		"salary": "36K"
+	}, 
+	{
+		"id": "7",
+		"first_name": "Admir7",
+		"last_name": "Saraseli7",
+		"email": "asaraseli7@gmail.com",
+		"job_title": "Future Developer",
+		"salary": "37K"
+	}, 
+	{
+		"id": "8",
+		"first_name": "Admir8",
+		"last_name": "Saraseli8",
+		"email": "asaraseli8@gmail.com",
+		"job_title": "Future Developer",
+		"salary": "38K"
+	}, 
+	{
+		"id": "9",
+		"first_name": "Admir9",
+		"last_name": "Saraseli9",
+		"email": "asaraseli9@gmail.com",
+		"job_title": "Future Developer",
+		"salary": "39K"
+	}, 
+	{
+		"id": "10",
+		"first_name": "Admir10",
+		"last_name": "Saraseli10",
+		"email": "asaraseli10@gmail.com",
+		"job_title": "Future Developer",
+		"salary": "40K"
+	}
+]`;
