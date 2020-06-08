@@ -1,0 +1,28 @@
+var books = `[
+{"title": "The Ground Beneath her Feet",
+ "author": "Salman Rushdie",
+ "read": "true",
+ "img": "img/rushdie.jpg"
+},
+{
+    "title": "A Wild Sheep Chase",
+    "author": "Haruki Murakami",
+    "read": "true",
+    "img": "img/murakami.jpg"
+},
+
+{
+    "title": "Song of Solomon",
+    "author": "Toni Morrison",
+    "read": "true",
+    "img": "img/morrison.jpg"
+},
+    
+{
+    "title": "Grendel",
+    "author": "John Gardner",
+    "read": "false",
+    "img": "img/grendel.jpg"
+}   
+    
+]`

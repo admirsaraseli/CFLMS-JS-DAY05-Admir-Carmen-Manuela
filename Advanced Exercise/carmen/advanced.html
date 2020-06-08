@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced</title>
+    <link rel="stylesheet" href="books.css">
+</head>
+<div class = "wrapper">
+
+<body>
+<script type="text/javascript" src="books.json"></script>
+<div id="output"></div>
+
+
+</div>
+<h1>Reading List</h1>
+
+<ul id="list" class="read">
+    </ul>
+
+
+
+<script>
+    var books = JSON.parse(books);
+    
+
+    for( var i=0; i<books.length; i++)
+    {
+        var obj = books[i];
+  
+    
+        document.querySelector("#list").innerHTML += "<li class = \"listElement\">" + obj.title + ": " + obj.author + "<br>"
+             + "<img class = \"image\"  src = \" "+obj.img + "\"><hr>";
+
+                 if (obj.read == true){
+                 document.querySelector("list")
+                 document.querySelector(".class").style.color ="blue";
+                 }
+        
+
+       /* document.writeln("<p><ul><li>"+ obj.title + ": " + obj.author);*/
+            
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</div>
+</html>
