@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Jason Basic Exercise</title>
+</head>
+<body>
+
+
+
+    <h1>Basic Exercise</h1>
+    <div id="output"></div>
+
+    <script>
+
+        //just internal: working!
+
+        var sandwich = {
+            "sandwich":"hamburger",
+            "calories": "260"
+        };
+
+        var fries = {
+            "size": "Large French Fries",
+            "calories": "570"
+        };
+
+        document.querySelector("#output").innerHTML = "My favorite sandwich is a " + sandwich.sandwich + " which has approximately " + 
+        sandwich.calories + " calories, along with it I enjoy eating " + fries.size + " which have about " + fries.calories+ " calories.";
+
+    </script>
+
+    <!-- external: not working, maybe because of api..-->
+
+    <!-- <script type="text/javascript" src="basic.json"></script>
+    <script>
+        var data = JSON.parse(json);
+        for (var i = 0; i < data.length; i++){
+            var obj = data[i];
+            document.getElementById('output').innerHTML += "My favourite sandwich is a " + obj.sandwich + " which has approximately " 
+            + obj.calories + " calories, along with it I enjoy eating " + obj.fries_size + " which have about " + obj.calories + " calories.";
+        }
+    </script> -->
+    
+</body>
+</html>
