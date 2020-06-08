@@ -1,10 +1,16 @@
 var booklistJson = JSON.parse(booklist);
-
-
+var booksdata =""
+var data = document.getElementById("books")
 for (var i = 0 ; i < booklistJson.length; i++) {
       var obj = booklistJson[i];
-      document.writeln("<p>");
-      document.writeln(obj.title+obj.author);
-      document.writeln("</p>");
+      if (obj.read === "true") {
+      booksdata = booksdata+"<li><figure><img src='img/"+booklistJson[i].cover+"'><figcaption style='color: red'>"+
+      "The title is: "+obj.title+" and the author is: "+obj.author+"</figcaption></figure></li>";
+	 }	else {
+	 	booksdata = booksdata+"<li><figure><img src='img/"+booklistJson[i].cover+"'><figcaption >"+
+	 	"The title is: "+obj.title+" and the author is: "+obj.author+"</figcaption></figure></li>";
+	 }
+      
   }
 
+data.innerHTML = booksdata;

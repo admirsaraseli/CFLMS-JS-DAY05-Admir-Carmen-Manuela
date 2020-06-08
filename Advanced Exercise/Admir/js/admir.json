@@ -1,21 +1,25 @@
   var booklist = `[{
-		"title": "Javascript for Dummies1",
-		"author": "Dummy Dumb Dumb1",
-		"read": "false"
+		"title": "Javascript for Dummies",
+		"author": "Dummy Dumb Dumb",
+		"read": "false",
+		"cover": "0.jpg"
 	}, 
 	{	
-		"title": "Javascript for Dummies2",
-		"author": "Dummy Dumb Dumb2",
-		"read": "false"
+		"title": "The Da Vinci Code ",
+		"author": " Dan Brown",
+		"read": "true",
+		"cover": "1.jpg"
 	},
 	{	
-		"title": "Javascript for Dummies3",
-		"author": "Dummy Dumb Dumb3",
-		"read": "false"
+		"title": "Angels and Demons",
+		"author": " Dan Brown",
+		"read": "false",
+		"cover": "2.jpg"
 	},
 	{	
-		"title": "Javascript for Dummies4",
-		"author": "Dummy Dumb Dumb4",
-		"read": "false"
+		"title": "Inferno",
+		"author": " Dan Brown",
+		"read": "true",
+		"cover": "3.jpg"
   }
 ]`
