@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>jason advanced exercise</title>
+		<style>
+			li{
+				font-size: 26px;
+				background-color: grey;
+			}
+			.cover{
+				width: 180px;
+				height: 260px;
+				margin-left: 40px;
+			}
+			.unread{
+				background-color: red;
+			}
+			.read{
+				background-color: green;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>My Booklist</h1>
+		<div id="container">
+			<div id="output"></div>
+
+
+			<!-- 			<div><p style="color = red">TEST </p></div> -->
+			<script type="text/javascript" src="books.json"></script>
+			<script>
+			var data = JSON.parse(books);
+			
+			document.getElementById('output').innerHTML = "<ul>"
+						for (var i = 0; i < data.length; i++) {
+						var obj = data[i];
+						
+						if(obj.read== "true"){
+						document.getElementById('output').innerHTML +=
+						"<p><li class=\"read\">" + obj.author + ": " + obj.title + "<br><img class=\"cover\" src=\"" + obj.cover + "\">"  + obj.title + "</li></p><hr>"
+					}
+					else{
+						document.getElementById('output').innerHTML +=
+						"<p><li class=\"unread\">" + obj.author + ": " + obj.title + "<br><img class=\"cover\" src=\"" + obj.cover +"\">" + "</li></p><hr>"
+					}
+						
+					}
+						//other order not working?
+
+						// missing end tag!!! now it works!
+						//why is it not possible to put the image as number 1 ?!?!
+						// for (var i = 0; i < data.length; i++) {
+						// var obj = data[i];
+						// document.getElementById('output').innerHTML +=
+						// "<p><li><img class=\"cover\" src=\"" + obj.cover +"\">" + obj.author + ": " + obj.title +  "</li></p>"
+						// }
+					
+			document.getElementById('output').innerHTML += "</ul>"
+			</script>
+			
+		</body>
+	</html>

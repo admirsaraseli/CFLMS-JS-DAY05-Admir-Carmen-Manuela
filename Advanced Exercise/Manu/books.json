@@ -1,0 +1,27 @@
+var books = `[{ 
+ "title": "Javascript for Dummies",
+  "author": "Dummy Dumb Dumb",
+   "read": "false",
+   "cover": "dummies.png"
+  },{
+   "title": "For we are many",
+  "author": "Taylor, Dennis E.",
+   "read": "true",
+   "cover": "many.png"
+  },{
+   "title": "Weltengänger",
+  "author": "Lukianenko, Sergej",
+   "read": "true"	,
+   "cover": "welten.png"
+  },{
+   "title": "Moon over Soho",
+  "author": "Aaronovitch, Ben",
+   "read": "true",
+   "cover": "soho.png"	
+  },{
+   "title": "Black Company",
+  "author": "Pehov, Alexey",
+   "read": "false",
+   "cover": "black.png"	
+  }
+]`;
