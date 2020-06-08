@@ -1,0 +1,71 @@
+var json = `[{
+"uniqueId": "001",
+"firstName": "Patrik",
+"lastName": "Untermoser",
+"emailAddress": "patrik.untermoser@gmail.com",
+"jobTitle":"Mechanic",
+"salary":"50.000"
+}, {
+"uniqueId": "002",
+"firstName": "Amira",
+"lastName": "Jonathan",
+"emailAddress": "amira.jonn@gmail.com",
+"jobTitle":"Web Developer",
+"salary":"65.000"
+}, {
+"uniqueId": "003",
+"firstName": "Mercedes",
+"lastName": "Stern",
+"emailAddress": "stern@mercedes.com",
+"jobTitle":"Engineer",
+"salary":"90.000"
+}, {
+"uniqueId": "004",
+"firstName": "Ahmed",
+"lastName": "Ahmal",
+"emailAddress": "ahmal@tech.com",
+"jobTitle":"Engineer",
+"salary":"80.000"
+}, {
+"uniqueId": "005",
+"firstName": "Rachel",
+"lastName": "Hunt",
+"emailAddress": "rachel@tech.com",
+"jobTitle":"consultant",
+"salary":"80.000"
+}, {
+"uniqueId": "006",
+"firstName": "Richard",
+"lastName": "Powers",
+"emailAddress": "powers@yahoo.com",
+"jobTitle":"detective",
+"salary":"70.000"
+}, {
+"uniqueId": "007",
+"firstName": "James",
+"lastName": "Bond",
+"emailAddress": "007@secret.com",
+"jobTitle":"secret agent",
+"salary":"170.000"
+}, {
+"uniqueId": "008",
+"firstName": "Alfonso",
+"lastName": "Rodriguez",
+"emailAddress": "boss@mafia.com",
+"jobTitle":"marketing manager",
+"salary":"470.000"
+}, {
+"uniqueId": "009",
+"firstName": "Piedro",
+"lastName": "Santana",
+"emailAddress": "dontmesswithme@horizon.com",
+"jobTitle":"international affairs",
+"salary":"270.000"
+}, {
+"uniqueId": "010",
+"firstName": "Inés",
+"lastName": "Bermúdez",
+"emailAddress": "superines@terra.es",
+"jobTitle":"mediation officer",
+"salary":"310.000"
+}]`;

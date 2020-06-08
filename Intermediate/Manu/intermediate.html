@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<style>
+		#wrapper{
+			display: flex;
+			width:  90%;
+			justify-content: center;
+			background-color: lightgrey;
+		}
+
+		#container{
+		}
+
+		#result{
+			display:  flex;
+			flex-wrap:  wrap;
+		}
+
+		.card{
+			width: 350px;
+			height:  300px;
+			background-color: #059398FF;
+			border:  1pt solid black;
+			border-radius: 10px;
+			text-align:  center;
+			color:  white;
+			font-size:  16pt;
+			margin: 1%;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="container">
+				<div id="result"></div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="empl.json"></script>
+
+		<script>
+		var mydata = JSON.parse(json);
+		for (var i = 0; i < mydata.length; i++) {
+		var obj = mydata[i];
+		document.getElementById('result').innerHTML += "<div class=\"card\"> <h2> Employee " + obj.uniqueId + "  </h2><h3>" + obj.firstName + " " + obj.lastName  + "</h3>"  + obj.jobTitle + "<br> email: " + obj.emailAddress + "<br><br>[HR Info: " + obj.salary + "]</div>";
+		}
+		</script>
+	</body>
+</html>
