@@ -1,0 +1,82 @@
+var employees = `[
+    {
+    "id": "1",
+    "firstname":"John",
+    "lastname": "Smith",
+    "email": "js@gmail.com",
+    "job": "Tester",
+    "salary":"40,000"
+}, 
+{
+    "id": "2",
+    "firstname":"Lee",
+    "lastname": "Miller",
+    "email": "lm@gmail.com",
+    "job": "Manager",
+    "salary":"80,000"
+},
+{
+    "id": "3",
+    "firstname":"Naomi",
+    "lastname": "Olaha",
+    "email": "no@gmail.com",
+    "job": "Team Lead",
+    "salary":"75,000"
+},
+{
+    "id": "4",
+    "firstname":"George",
+    "lastname": "Tanaka",
+    "email": "gt@gmail.com",
+    "job": "Marketing",
+    "salary":"60,000"
+},
+{
+    "id": "5",
+    "firstname":"Sara",
+    "lastname": "Kitan",
+    "email": "sk@gmail.com",
+    "job": "Engineer",
+    "salary":"70,000"
+},
+{
+    "id": "6",
+    "firstname":"Samantha",
+    "lastname": "Wagner",
+    "email": "sw@gmail.com",
+    "job": "Agile Coach",
+    "salary":"60,000"
+},
+{
+    "id": "7",
+    "firstname":"Alana",
+    "lastname": "Hernandez",
+    "email": "ah@gmail.com",
+    "job": "Product Owner",
+    "salary":"75,000"
+},
+{
+    "id": "8",
+    "firstname":"Martin",
+    "lastname": "Prochaska",
+    "email": "mp@gmail.com",
+    "job": "Intern",
+    "salary":"2000"
+},
+{
+    "id": "9",
+    "firstname":"Salima",
+    "lastname": "Ram",
+    "email": "sr@gmail.com",
+    "job": "VP Engineering",
+    "salary":"150,000"
+},
+{
+    "id": "10",
+    "firstname":"William",
+    "lastname": "Oates",
+    "email": "wo@gmail.com",
+    "job": "Office Assistant",
+    "salary":"40,000"
+}
+]`;

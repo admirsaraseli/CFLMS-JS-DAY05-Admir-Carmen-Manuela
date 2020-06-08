@@ -6,6 +6,45 @@
     <title>Intermediate</title>
 </head>
 <body>
+<h1>Employee Data</h1>
+<div id="output"></div>
+<script type="text/javascript" src="employees.json"></script>
+
+<script>
+var data = JSON.parse(employees);
+for (
+    var i=0; i<employees.length;i++){
+        var obj = data[i];
+     
+    document.getElementById("output").innerHTML += obj.firstname + "<br>";
+}
+</script>
+
+<script>
+    var employeesJson = JSON.parse(employees);
+
+    document.writeln("<table border = '1'>")
+    document.writeln("<tr><td>ID</td><td>Firstname</td><td>Lastname</td><td>Email</td><td>Position</td><td>Salary</td></tr>")
+
+    for (var i=0; i<employeesJson.length; i++){
+        var obj = employeesJson[i];
+        document.writeln("<tr>");
+        document.writeln("<td>"+ obj.id);
+        document.writeln("<td>" + obj.firstname);
+        document.writeln("<td>" + obj.lastname);
+        document.writeln("<td>" + obj.email);
+        document.writeln("<td>" + obj.job);
+        document.writeln("<td>"+ obj.salary);
+    }
+
+    document.writeln("</table")
+
+</script>
+
+
+
+
+
     
 </body>
 </html>
